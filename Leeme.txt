@@ -1,0 +1,16 @@
+1. python -m venv env                                   => creamos un entorno virtual
+2. source ./env/Scripts/activate                        => activamos entorno virtual
+3. pip install django==3.2.16                           => instalamos django version 3.2.16
+4. django-admin startproject core .                     => creamos proyecto django en carpeta core
+
+
+
+
+
+Notas:
+pip freeze > requirements.txt
+pip install -r requirements.txt
+render.com
+deactivate
+https://www.toptal.com/developers/gitignore
+ctrl + f (para buscar texto en nuestros archivos) poner # a: # build/
